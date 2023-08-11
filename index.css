@@ -1,0 +1,186 @@
+body{
+   border: black;
+   margin: black;
+}
+.header{
+    width: 100%;
+    height: 50px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-style: normal;
+    font-size: 30px;
+}
+.navigation{
+    color: white;
+    background-color: black;
+    font-style: italic;
+    height: 50px;
+    width: 100%;
+    display: block;
+    justify-content: space-between;   
+}
+.portfolio
+{
+    text-align: left;
+    font-style: oblique;
+    padding: 30px 20px;
+    padding-left: 30px;
+    font-size: 35px;
+    text-decoration: none;
+}
+.links{
+    float: right;
+    padding: 20px;
+    text-align: right;
+    padding: 10px 10px;
+    padding-bottom: 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+span{
+    color: red;
+}
+button{
+    background-color: white;
+    color: red;
+    margin: 0px solid transparent ;
+    border-radius: 20px;
+    font-size: 18px;
+   
+}
+button:hover{
+    background-color: red;
+    color: white;
+    border: 1px;
+}
+main{ 
+    background-image: url("portfolio b1.jfif");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+.details{
+    height: 10px;
+    width: 400px;
+    font-size: medium;
+    color: black;
+    font-style: normal;
+    padding: 10px 20px;  
+    padding-top: 10px;
+    padding-left: 180px;
+    font-style: normal;
+    font-size: 25px;
+}
+.hi{
+    padding-top: 150px;
+    padding-left: 180px;
+    font-style: italic;
+    font-size: 50px;
+}
+.name{
+    padding-top: 10px;
+    padding-left: 180px;
+    font-style: italic;
+    font-size: 50px;
+    color: blue;
+    font-weight: 30px;
+}
+.about{
+    width: 100%;
+    height: 450px;
+    background-color: black;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: block;
+    -ms-layout-grid: auto;
+
+}
+.head1{
+    color: blue;
+    font-style: unset;
+    font-size: 70px;
+    text-decoration: none;
+    font-weight: 200;
+    text-align: left;
+    padding: 50px;
+    padding-top: 30px;
+
+}
+.about1{
+   
+    display: flex;
+    color: white;
+    background-color: black;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 30px;
+    font-size: large;
+    line-height: 30px;
+}
+.skills
+{
+    height: 500px;
+    width: 100%;
+    background-color: darkgrey;
+    display: inline-flex;
+    justify-content: space-between;
+    
+}
+.skill1
+{
+    display: block;
+    font-size: 80px;
+    font-style: unset;
+    color: blue;
+    padding-left: 250px;
+    padding-top: 200px;
+    padding-bottom: 20px;
+}
+.skill2{
+    display: block ;
+    font-size: larger;
+    font-style: normal;
+    color: black;
+    line-height: 20px;
+    padding-left: 20px;
+    padding-top: 50px;
+    padding-right: 350px;
+    line-height: 30px;
+}
+.foot{
+    height: 500px;
+    width: 100%;
+    background-color:lightblue ;
+    display: inline-flex;
+    float: left;
+}
+.query{
+    display: block;
+    color: blue;
+    font-style: oblique;
+    font-size: 40px;
+    width: 40%;
+    height: 100px;
+    padding-left: 20px;
+    padding-right: 100px;
+    padding-top: 100px;
+}
+
+.frm{
+    display: block ;
+    float: left;
+    height: 500px;
+    width: 50%;
+    padding-left: 250px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-size: larger;
+    font-style: normal;
+    font-weight: 20px;
+    line-height: 40px;
+    word-spacing: 10px;
+
+}
